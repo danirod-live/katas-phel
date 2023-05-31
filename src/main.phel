@@ -1,0 +1,35 @@
+(ns hello\src)
+
+(def lista [4 7 9 10])
+
+(def p1 (map inc lista))
+(println p1)
+
+(def p2 (filter even? p1))
+(println p2)
+
+(def estru [{:id 1 :value 10.3} {:id 2 :value 20.06} {:id 7 :value 30.1}])
+(def p3 (for [i :in estru] (i :value)))
+(println p3)
+
+(def est4 {:shops [:shop-1]
+     :customers [{:id "Bob"
+                      :account {:balance 3}}]})
+(def p4 (update-in est4 [:customers 0 :account :balance] inc))
+(println p4)
+
+(def est5 [{:a 1 :b 2} {:c 3} {:d 4 :e 5}])
+(defn combine
+      "Combina una lista de mapas"
+      [lst]
+      (reduce merge {} lst))
+(defn combine2
+      "Vuelve a combinar una lista de mapas"
+      [lst]
+      (apply merge lst))
+(def p5 (combine2 est5))
+(println p5)
+
+(println "=========")
+
+
