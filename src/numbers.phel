@@ -1,4 +1,4 @@
-(ns src\numbers)
+(ns danirod-katas\numbers)
 
 # Given a list of numbers and a constant k, give a function that tests whether two of the
 # numbers in the list would sum k. For instance, given [10 3 4 7] and k = 17, it would

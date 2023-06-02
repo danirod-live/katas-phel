@@ -1,4 +1,4 @@
-(ns src\rps)
+(ns danirod-katas\rps)
 
 (def rock "r")
 (def paper "p")

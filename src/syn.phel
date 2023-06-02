@@ -1,4 +1,4 @@
-(ns src\syn)
+(ns danirod-katas\syn)
 
 # Este es un ejemplo para ver cómo va la sintaxis
 

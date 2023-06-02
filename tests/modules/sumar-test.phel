@@ -1,0 +1,8 @@
+(ns cli-skeleton-tests\modules\adder-module-test
+  (:require danirod-katas\testing :refer [sumar])
+  (:require phel\test :refer [deftest is]))
+
+(deftest test-sumar
+  (is (= 3 (sumar 3)) "un número")
+  (is (= 4 (sumar 2 2)) "dos números")
+  (is (= 6 (sumar 1 2 3)) "tres números"))
