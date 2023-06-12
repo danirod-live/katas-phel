@@ -1,4 +1,4 @@
-(ns hello\src)
+(ns danirod-katas\src)
 
 (def lista [4 7 9 10])
 

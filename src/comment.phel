@@ -1,4 +1,4 @@
-(ns src\comment)
+(ns danirod-katas\comment)
 
 (def numeros [
  5 # comentario
